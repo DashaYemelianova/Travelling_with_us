@@ -1,211 +1,211 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 16px;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    height: 100%;
-    font-family: 'Arial', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #100d12;
-    flex: 0 0 10%;
-    height: 100%;
-}
-
-.header__title {
-    color: #5e3163;
-    font-size: 1.5em;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.header__nav {
-    display: flex;
-}
-
-.header__nav-list {
-    display: flex;
-    list-style: none;
-}
-
-.header__nav-item {
-    margin-left: 25px;
-}
-
-.header__nav-link {
-    color: #5e3163;
-    font-size: 1em;
-    text-decoration: none;
-    transition: color 0.3s;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-}
-
-.section__title {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-}
-
-.section__content {
-    display: flex;
-    gap: 100px;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    text-align: center;
-}
-
-.section-1 {
-    background-image: url('background_imgs/background1.jpg');
-}
-
-.section-2 {
-    background-image: url('background_imgs/background2.jpg');
-}
-
-.section-4 {
-    background-image: url('background_imgs/background3.jpg');
-}
-
-.section__list {
-    list-style: none;
-    font-size: 0.7em;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-
-.section__button {
-    font-size: 0.7em;
-    padding: 20px 0;
-    width: 10em;
-    background-color: #412052;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.4s;
-}
-
-.tour-cards {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    flex-wrap: wrap;
-}
-
-.tour-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: calc(25% - 2rem);
-    margin: 0 1rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #f0f2f5; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.tour-card__image {
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-}
-
-.tour-card__title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-.tour-card__description {
-    font-size: 1rem;
-    line-height: 1.4;
-    margin-bottom: 1rem;
-    flex-grow: 1;
-}
-
-.tour-card__buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.tour-card__button {
-    font-size: 18px;
-    padding: 20px 0;
-    width: 108px;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.4s;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #34495e;
-    height: 60px;
-}
-
-.footer__text {
-    color: #ffffff;
-    font-size: 1rem;
-}
-
-.header__nav-link:hover {
-    color: #886399;
-}
-
-.tour-card__button1 {
-    background-color: #140c14;
-}
-
-.tour-card__button2 {
-    background-color: #630d5b;
-}
-
-.tour-card__button1:hover {
-    background-color: #595559;
-}
-
-.tour-card__button2:hover {
-    background-color: #a35a9d;
-} 
-
-.section__button:hover {
-    background-color: #683e7d;
-}
+    /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap'); */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 16px;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        height: 100%;
+        font-family: 'Arial', sans-serif;
+        /* font-size: 24px; */
+        font-weight: 400;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #100d12;
+        flex: 0 0 10%;
+        height: 100%;
+    }
+    
+    .header__title {
+        color: #5e3163;
+        font-size: 2.5em;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .header__nav {
+        display: flex;
+    }
+    
+    .header__nav-list {
+        display: flex;
+        list-style: none;
+    }
+    
+    .header__nav-item {
+        margin-left: 25px;
+    }
+    
+    .header__nav-link {
+        color: #5e3163;
+        font-size: 1.5em;
+        text-decoration: none;
+        transition: color 0.3s;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+    }
+    
+    .section__title {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    
+    .section__content {
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .section-1 {
+        background-image: url('background_imgs/background1.jpg');
+    }
+    
+    .section-2 {
+        background-image: url('background_imgs/background2.jpg');
+    }
+    
+    .section-4 {
+        background-image: url('background_imgs/background3.jpg');
+    }
+    
+    .section__list {
+        list-style: none;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+    
+    .section__button {
+        font-size: 1.2em;
+        padding: 20px 0;
+        width: 10em;
+        background-color: #412052;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.4s;
+    }
+    
+    .tour-cards {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+    
+    .tour-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: calc(25% - 2rem);
+        margin: 0 1rem;
+        padding: 0.5rem;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #f0f2f5;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .tour-card__image {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+    }
+    
+    .tour-card__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    
+    .tour-card__description {
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 0.5rem;
+        flex-grow: 0;
+    }
+    
+    .tour-card__buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .tour-card__button {
+        font-size: 18px;
+        padding: 20px 0;
+        width: 108px;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.4s;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #34495e;
+        height: 60px;
+    }
+    
+    .footer__text {
+        color: #ffffff;
+        font-size: 1rem;
+    }
+    
+    .header__nav-link:hover {
+        color: #886399;
+    }
+    
+    .tour-card__button1 {
+        background-color: #140c14;
+    }
+    
+    .tour-card__button2 {
+        background-color: #630d5b;
+    }
+    
+    .tour-card__button1:hover {
+        background-color: #595559;
+    }
+    
+    .tour-card__button2:hover {
+        background-color: #a35a9d;
+    }
+    
+    .section__button:hover {
+        background-color: #683e7d;
+    }
